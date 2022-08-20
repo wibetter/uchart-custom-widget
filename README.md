@@ -21,6 +21,7 @@
 - build/linkDebug.js: 用于本地「linkDebug」调试自定义组件；
 
 ### 相关开发文档
+- uchar图表开发文档：[https://www.ucharts.cn/v2/#/](https://www.ucharts.cn/v2/#/)
 - uni-app开发文档：[https://uniapp.dcloud.net.cn/](https://uniapp.dcloud.net.cn/)
 - vue3开发文档：[https://v3.cn.vuejs.org/](https://v3.cn.vuejs.org/)
 - 自定组件注册器：[vue3-aipage-widget](https://github.com/aisuda/vue3-aipage-widget)
