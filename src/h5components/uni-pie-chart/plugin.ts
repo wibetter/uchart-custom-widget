@@ -2,7 +2,7 @@
  * @file 编辑器扩展, 增加自定义插件（组件物料面板展示需要）
  */
 // @ts-ignore
-import { registerPlugin } from 'vue3-aipage-widget';
+import { registerPlugin } from 'vue3-aipage-widget/dist/index.umd';
 
 const pieChartPlugin = {
   name: '饼状图',
