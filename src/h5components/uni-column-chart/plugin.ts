@@ -48,7 +48,7 @@ const columnChartPlugin = {
               {
                 name: 'data.series',
                 type: 'setting-list',
-                label: '饼图数据',
+                label: '图表数据',
                 mode: 'normal',
                 fullSize: true,
                 setting: [
@@ -74,7 +74,7 @@ const columnChartPlugin = {
               },
               {
                 name: 'data.categories',
-                label: 'categories',
+                label: '横轴数据',
                 type: 'input-array',
                 inline: true,
                 removable: true,

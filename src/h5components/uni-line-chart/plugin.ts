@@ -51,7 +51,7 @@ const lineChartPlugin = {
               {
                 name: 'data.series',
                 type: 'setting-list',
-                label: '饼图数据',
+                label: '图表数据',
                 mode: 'normal',
                 fullSize: true,
                 setting: [

@@ -52,7 +52,7 @@ const areaChartPlugin = {
               {
                 name: 'data.series',
                 type: 'setting-list',
-                label: '饼图数据',
+                label: '图表数据',
                 mode: 'normal',
                 fullSize: true,
                 setting: [
@@ -78,7 +78,7 @@ const areaChartPlugin = {
               },
               {
                 name: 'data.categories',
-                label: '横轴(x轴)数据',
+                label: '横轴数据',
                 type: 'input-array',
                 mode: 'normal',
                 fullSize: true,

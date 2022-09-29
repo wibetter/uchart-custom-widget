@@ -42,38 +42,24 @@ const pieChartPlugin = {
         title: '属性',
         controls: [
           {
-            type: 'input-array',
-            name: 'data.series',
-            label: '饼图数据',
-            inline: true,
-            removable: true,
-            draggable: true,
-            items: {
-              name: 'data',
-              type: 'setting-list',
-              label: '饼图数据',
-              mode: 'normal',
-              fullSize: true,
-              setting: [
-                {
-                  type: 'input-text',
-                  name: 'name',
-                  label: '指标',
-                  placeholder: '请输入奖品名称',
-                },
-                {
-                  type: 'input-array',
-                  name: 'data',
-                  label: '数值',
-                  inline: true,
-                  removable: true,
-                  draggable: true,
-                  items: {
-                    type: 'input-number',
-                  },
-                },
-              ],
-            },
+            type: 'setting-list',
+            name: 'data.series[0].data',
+            label: '图表数据',
+            mode: 'normal',
+            fullSize: true,
+            setting: [
+              {
+                type: 'input-text',
+                name: 'name',
+                label: '指标',
+                placeholder: '请输入奖品名称',
+              },
+              {
+                type: 'input-number',
+                name: 'value',
+                label: '数值',
+              },
+            ],
             enableDataBinding: true, // 有这个属性则组件会自动开启动态数据绑定
           },
         ],
