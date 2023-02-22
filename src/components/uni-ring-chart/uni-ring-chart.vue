@@ -115,7 +115,7 @@ export default {
         },
         extra: {
           ring: {
-            ringWidth: 60,
+            ringWidth: uni.upx2px(60),
             activeOpacity: 0.5,
             activeRadius: 10,
             offsetAngle: 0,
