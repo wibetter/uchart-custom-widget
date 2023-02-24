@@ -74,14 +74,14 @@ export default {
   methods: {
     drawCharts(id, data) {
       const canvas = document.getElementById(id) || this.$refs.uchart;
-      canvas.width = canvas.offsetWidth;
-      canvas.height = canvas.offsetHeight;
+      canvas.width = canvas.offsetWidth || '370';
+      canvas.height = canvas.offsetHeight || '280';
       const ctx = canvas.getContext('2d');
       uChartsInstance[id] = new uCharts({
         type: 'area',
         context: ctx,
-        width: canvas.width,
-        height: canvas.height,
+        // width: canvas.width,
+        // height: canvas.height,
         categories: this.categories,
         series: data.series,
         animation: true,
