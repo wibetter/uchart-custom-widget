@@ -80,8 +80,8 @@ export default {
       uChartsInstance[id] = new uCharts({
         type: 'area',
         context: ctx,
-        // width: canvas.width,
-        // height: canvas.height,
+        width: canvas.width,
+        height: canvas.height,
         categories: this.categories,
         series: data.series,
         animation: true,

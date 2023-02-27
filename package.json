@@ -1,6 +1,6 @@
 {
   "name": "uchart-custom-widget",
-  "version": "1.2.8",
+  "version": "1.2.10",
   "description": "图表自定义组件",
   "keywords": [
     "自定义组件",
@@ -78,7 +78,7 @@
     {
       "type": "uni-area-chart",
       "framework": "vue3",
-      "description": "折线图",
+      "description": "折线区域图",
       "entry": "/preview/uniAreaRenderer.umd",
       "files": [
         "/preview/uniAreaRenderer.css"
@@ -104,7 +104,7 @@
     {
       "type": "uni-column-chart",
       "framework": "vue3",
-      "description": "折线图",
+      "description": "柱状图",
       "entry": "/preview/uniColumnRenderer.umd",
       "files": [
         "/preview/uniColumnRenderer.css"
@@ -130,7 +130,7 @@
     {
       "type": "uni-mount-chart",
       "framework": "vue3",
-      "description": "折线图",
+      "description": "山峰图",
       "entry": "/preview/uniMountRenderer.umd",
       "files": [
         "/preview/uniMountRenderer.css"
@@ -156,7 +156,7 @@
     {
       "type": "uni-pie-chart",
       "framework": "vue3",
-      "description": "折线图",
+      "description": "饼状图",
       "entry": "/preview/uniPieRenderer.umd",
       "files": [
         "/preview/uniPieRenderer.css"
@@ -182,7 +182,7 @@
     {
       "type": "uni-ring-chart",
       "framework": "vue3",
-      "description": "折线图",
+      "description": "环形图",
       "entry": "/preview/uniRingRenderer.umd",
       "files": [
         "/preview/uniRingRenderer.css"
