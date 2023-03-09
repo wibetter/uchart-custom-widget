@@ -252,7 +252,7 @@
     "@dcloudio/uni-cli-shared": "3.0.0-alpha-3070220230217001",
     "@dcloudio/uni-stacktracey": "3.0.0-alpha-3070220230217001",
     "@dcloudio/vite-plugin-uni": "3.0.0-alpha-3070220230217001",
-    "@wibetter/amis-widget-cli": "^3.0.16",
+    "@wibetter/amis-widget-cli": "^3.1.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.9",
     "prettier": "^2.0.5",
